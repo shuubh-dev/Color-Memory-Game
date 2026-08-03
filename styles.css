@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.red, .blue, .green, .yellow {
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 20%;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
